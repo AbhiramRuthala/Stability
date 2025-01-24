@@ -2,6 +2,8 @@ import mne
 import matplotlib.pyplot as plt
 from mne.viz import plot_alignment, set_3d_view
 
+# Original thoughts about using EEG data and views toward mood reading -- Idea for later
+
 data_path = mne.datasets.sample.data_path()
 subjects_dir = data_path / "MEG" / "Subjects" 
 
